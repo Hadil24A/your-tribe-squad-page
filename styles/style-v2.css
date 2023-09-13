@@ -1,0 +1,87 @@
+/* slideshow testen */
+
+body {
+    display: flex;
+    height: 200vh;
+    width: auto;
+    justify-content: center;
+
+}
+
+/* animation van links */
+
+@keyframes slideinleft {
+    from {
+    transform: translateX(-1400px);
+    }
+    to {
+    transform: translateX(0px); 
+    }
+}
+
+/* animation van rechts */
+
+@keyframes slideinright {
+    from {
+    transform: translateX(700px);
+    }
+    to {
+    transform: translateX(-700px); 
+    }
+}
+
+/* animation 1 */
+
+.tech-slideshow {
+    animation-name: slideinleft;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+.tech-slideshow > div {
+    height: 12em;
+    width: 50em;
+    margin-left: 20%;
+    background-color: blueviolet;
+    position: absolute;
+}
+
+/* animation 2 */
+
+.tech-slideshow2 {
+    animation-name: slideinright;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+.tech-slideshow2 > div {
+    height: 12em;
+    width: 50em;
+    margin-right: 20%;
+    margin-top: 13em;
+    background-color: rgb(43, 61, 226);
+    position: absolute;
+}
+
+/* animation 3 */
+
+.tech-slideshow3 {
+    animation-name: slideinleft;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+.tech-slideshow3 > div {
+    height: 12em;
+    width: 50em;
+    margin-left: 20%;
+    margin-top: 26em;
+    background-color: rgb(43, 208, 226);
+    position: absolute;
+}
