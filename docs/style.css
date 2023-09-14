@@ -1,30 +1,48 @@
 head {
     height: 200vh;
-    width: auto;
+    
 }
 
-body {
-    color: #f45b69;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: xx-large;
-    font-weight: bold;
-    justify-content: center;
-
-}
-
-article {
-    position: relative;
+h1 {
+    padding: 3em;
+    padding-bottom: 0%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    width: 180em;
-    border: 25em;
-    border-radius: 5rem;
-}  
+    position: relative;
+    margin-bottom: 0em;
+    margin-top: 0.5em;
+    padding-left: 10em;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 350%;
+    color: #0f0a0a;
+    cursor: default;
+
+}
+
+h1:hover {
+    background-color: #f45b69;
+    color:#f5efed;
+    padding-bottom: 0;
+    margin-bottom: 0em;
+   
+    }
+
+.visitekaartjes {
+    color:#509170 ;
+    font-weight: bold;
+}    
+
+
+p {
+    text-align: center;
+    margin-top: 2;
+
+}
  
-.mail {
-    color: #509170;
-    margin-bottom: 10%;
-    justify-content: center;
-  }
+@media screen  (min-width: 320px;)
+    
+{}
+
+@media screen  (man-width: 1280px) 
+    
+{}
