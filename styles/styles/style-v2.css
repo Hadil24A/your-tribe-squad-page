@@ -1,0 +1,153 @@
+/* slideshow testen */
+
+body {
+    display: flex;
+    height: 200vh;
+    width: auto;
+    justify-content: center;
+
+}
+
+/* animation van links */
+
+@keyframes slideinleft {
+    from {
+    transform: translateX(-850px);
+    }
+    to {
+    transform: translateX(750px); 
+    }
+}
+
+@keyframes slideinleft2 {
+    from {
+    transform: translateX(-2450px);
+    }
+    to {
+    transform: translateX(-850px);    
+    }
+}
+
+/* animation van rechts */
+
+@keyframes slideinright {
+    from {
+    transform: translateX(-850px);
+    }
+    to {
+    transform: translateX(-2450px); 
+    }
+}
+
+@keyframes slideinright2 {
+    from {
+    transform: translateX(750px);
+    }
+    to {
+    transform: translateX(-850px); 
+    }
+}
+
+/* slider animation 1 */
+
+.tech-slideshow {
+    animation-name: slideinleft;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+.tech-slideshow > div {
+   background-image: url(2slide.jpg);
+   position: absolute;
+}
+
+.slider {
+    height: 18em;
+    width: auto;
+    position: absolute;
+    top: 10em;
+}
+
+/* Slider follow animatie 1*/
+
+.techsliderfollow {
+    animation-name: slideinleft2;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+.techsliderfollow {
+    background-image: url(2slide.jpg);
+    position: absolute;
+}
+
+.sliderfollow {
+    height: 18em;
+    width: auto;
+    position: absolute;
+    top: 10em;
+}
+
+/* Slider 2 animatie */
+
+.tech-slideshow2 {
+    animation-name: slideinright;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+.tech-slideshow2 > div {
+    background-image: url(1slide.jpg);
+    position: absolute;
+
+}
+
+.slider1 {
+    height: 18em;
+    width: auto;
+    position: absolute;
+    top: 32em;
+}
+
+/* follow slider 2 */
+
+.tech-sliderfollow1 {
+    animation-name: slideinright2;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+.tech-sliderfollow1 > div {
+    background-image: url(1slide.jpg);
+    position: absolute; 
+}
+
+.slider1follow {
+    height: 18em;
+    width: auto;
+    position: absolute;
+    top: 32em;
+}
+
+/*animatie slider 3 */
+
+.techslide3 {
+    background-image: url(3slide.png);
+    position: absolute;
+}
+
+.slider3 {
+    height: 18em;
+    width: auto;
+    position: absolute;
+    top: 54em;
+}
+/* follow slider */
