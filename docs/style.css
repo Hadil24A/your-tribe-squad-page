@@ -16,8 +16,11 @@ h1 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 350%;
+    background-color: transparent;
     color: #0f0a0a;
     cursor: default;
+    transition: background-color 0.4s ease-out , color 0.4s ease-out;
+    /*transition: color 0.4s ease-out;*/
 }
 
 h1:hover {
@@ -25,22 +28,18 @@ h1:hover {
     color:#f5efed;
     padding-bottom: 0;
     margin-bottom: 0em;
-
   }
 
 .visitekaartjes {
     color:#509170 ;
     font-weight: bold;
-}    
+    padding-top: 1em;
+ }
 
- 
-/* @media screen  (min-width: 320px;)
-    
-{}
-
-@media screen  (max-width: 1280px) 
-    
-{} */
+p {
+text-align: center;
+padding-top: 2em;
+}
 
 
 body {
@@ -56,10 +55,6 @@ body {
     color:#509170 ;
     font-weight: bold;
 }    
-
-p {
-    text-align: center;
-}
 
 
 /* animation van links */
@@ -118,10 +113,13 @@ p {
 }
 
 .slider {
-    height: 18em;
+    height: 22em;
     width: auto;
     position: absolute;
-    top: 25em;
+    top: 28em;
+    background-color: #eae0dd;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 /* Slider follow animatie 1*/
@@ -140,10 +138,13 @@ p {
 }
 
 .sliderfollow {
-    height: 18em;
+    height: 22em;
     width: auto;
     position: absolute;
-    top: 25em;
+    top: 28em;
+    background-color: #eae0dd;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 /* Slider 2 animatie */
@@ -163,10 +164,13 @@ p {
 }
 
 .slider1 {
-    height: 18em;
+    height: 22em;
     width: auto;
     position: absolute;
-    top: 46.5em;
+    top: 52em;
+    background-color: #eae0dd;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 /* follow slider 2 */
@@ -185,10 +189,13 @@ p {
 }
 
 .slider1follow {
-    height: 18em;
+    height: 22em;
     width: auto;
     position: absolute;
-    top: 46.5em;
+    top: 52em;
+    background-color: #eae0dd;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 /*animatie slider 3 */
@@ -208,10 +215,13 @@ p {
 }
 
 .slider3 {
-    height: 18em;
+    height: 22em;
     width: auto;
     position: absolute;
-    top: 68em;
+    top: 76em;
+    background-color: #eae0dd;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .techslidefollow3 {
@@ -228,13 +238,19 @@ p {
 }
 
 .slider3follow {
-    height: 18em;
+    height: 22em;
     width: auto;
     position: absolute;
-    top: 68em;
+    top: 76em;
     background-color: transparent;
+    background-color: #eae0dd;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
+.slider3follow :hover {
+    background-color: #f45b69
+}
 
 
 
