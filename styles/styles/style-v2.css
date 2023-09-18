@@ -1,25 +1,20 @@
 * {
     box-sizing: border-box;
-  }
+    margin: 0;
+}
 
-  head {
+head {
     height: 0%;
-    margin: 0%;  
+    margin: 0%;
 }
 
 body {
     margin-top: 0%;
-    display: flex;
-    height: 350vh;
-    width: auto;
-    justify-content: center;
     background-color: #f5efed;
 
 }
 
 h1 {
-    padding: 10em;
-    padding-bottom: 0%;
     position: relative;
     margin-bottom: 0em;
     margin-top: 0em;
@@ -29,23 +24,31 @@ h1 {
     font-size: 350%;
     color: #0f0a0a;
     cursor: default;
+    transition: background-color 0.4s ease-out , color 0.4s ease-out;
 }
 
 h1:hover {
     background-color: #f45b69;
-    color:#f5efed;
+    color: #f5efed;
     padding-bottom: 0;
-   
-    }
+    margin-bottom: 0em;
+
+}
+
+.intro h1 {
+    width: 100%;
+}
 
 .visitekaartjes {
-    color:#509170 ;
+    color: #509170;
     font-weight: bold;
-}    
+    padding-top: 1em;
+}
 
 
 p {
     text-align: center;
+    padding-top: 2em;
 
 }
 
@@ -53,19 +56,21 @@ p {
 
 @keyframes slideinleft {
     from {
-    transform: translateX(-1100px);
+        transform: translateX(-1100px);
     }
+
     to {
-    transform: translateX(500px); 
+        transform: translateX(500px);
     }
 }
 
 @keyframes slideinleft2 {
     from {
-    transform: translateX(-2700px);
+        transform: translateX(-2700px);
     }
+
     to {
-    transform: translateX(-1100px);    
+        transform: translateX(-1100px);
     }
 }
 
@@ -73,19 +78,21 @@ p {
 
 @keyframes slideinright {
     from {
-    transform: translateX(-1050px);
+        transform: translateX(-1050px);
     }
+
     to {
-    transform: translateX(-2650px); 
+        transform: translateX(-2650px);
     }
 }
 
 @keyframes slideinright2 {
     from {
-    transform: translateX(550px);
+        transform: translateX(550px);
     }
+
     to {
-    transform: translateX(-1050px); 
+        transform: translateX(-1050px);
     }
 }
 
@@ -99,25 +106,12 @@ p {
     animation-iteration-count: infinite;
 }
 
-.tech-slideshow > div {
-   background-image: url(2slide.jpg);
-   position: absolute;
-}
-
-.slider {
-    height: 22em;
-    width: auto;
+.tech-slideshow {
+    background-image: url(2slide.jpg);
     position: absolute;
-    top: 28em;
-    background-color: #eae0dd;
-    padding-top: 2em;
-    padding-bottom: 2em;
 }
 
-.testhover1 {
-    background-color: #f45b69
-}
-/* Slider follow animatie 1*/
+/* follow slider animation 1 */
 
 .techsliderfollow {
     animation-name: slideinleft2;
@@ -129,20 +123,10 @@ p {
 
 .techsliderfollow {
     background-image: url(2slide.jpg);
-    position: absolute;
+    position: relative;
 }
 
-.sliderfollow {
-    height: 22em;
-    width: auto;
-    position: absolute;
-    top: 28em;
-    background-color: #eae0dd;
-    padding-top: 2em;
-    padding-bottom: 2em;
-}
-
-/* Slider 2 animatie */
+/* slider animation 2 */
 
 .tech-slideshow2 {
     animation-name: slideinright;
@@ -152,23 +136,13 @@ p {
     animation-iteration-count: infinite;
 }
 
-.tech-slideshow2 > div {
+.tech-slideshow2 {
     background-image: url(1slide.jpg);
     position: absolute;
 
 }
 
-.slider1 {
-    height: 22em;
-    width: auto;
-    position: absolute;
-    top: 52em;
-    background-color: #eae0dd;
-    padding-top: 2em;
-    padding-bottom: 2em;
-}
-
-/* follow slider 2 */
+/* followslider animation 2 */
 
 .tech-sliderfollow1 {
     animation-name: slideinright2;
@@ -178,22 +152,12 @@ p {
     animation-iteration-count: infinite;
 }
 
-.tech-sliderfollow1 > div {
+.tech-sliderfollow1>div {
     background-image: url(1slide.jpg);
-    position: absolute; 
+    position: relative;
 }
 
-.slider1follow {
-    height: 22em;
-    width: auto;
-    position: absolute;
-    top: 52em;
-    background-color: #eae0dd;
-    padding-top: 2em;
-    padding-bottom: 2em;
-}
-
-/*animatie slider 3 */
+/* slider animation 3 */
 
 .techslide3 {
     animation-name: slideinleft;
@@ -206,20 +170,10 @@ p {
 
 .techslide3 {
     background-image: url(3slide.png);
-    position: absolute;
+    position: relative;
 }
 
-.slider3 {
-    height: 22em;
-    width: auto;
-    position: absolute;
-    top: 76em;
-    background-color: #eae0dd;
-    padding-top: 2em;
-    padding-bottom: 2em;
-}
-
-/* follow slider */
+/* followslider animation 3 */
 
 .techslidefollow3 {
     animation-name: slideinleft2;
@@ -229,24 +183,57 @@ p {
     animation-iteration-count: infinite;
 }
 
-.techslidefollow3 > div {
+.techslidefollow3 {
     background-image: url(3slide.png);
     position: absolute;
 }
 
-.slider3follow {
-    height: 22em;
-    width: auto;
-    position: absolute;
-    top: 76em;
-    background-color: transparent;
-    background-color: #eae0dd;
-    padding-top: 2em;
-    padding-bottom: 2em;
+/* header, paragraaf*/
+
+.intro {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.slider3 :hover
-.slider3follow :hover 
-{
-    background-color: #f45b69
+.tech-slideshow-container {
+    position: relative;
+    overflow-x: hidden;
+    padding: 2rem 0;
+    margin-top: 2rem;
+    background-color: #eae0dd;
+
+    /* transition: background-color 0.4s ease-out, color 1s ease-out; */
+    transition: background-color 0.4s ease-out;
+}
+
+.tech-slideshow-container:hover {
+    background-color: #509170;
+}
+
+.tech-slideshow2-container {
+    position: relative;
+    overflow-x: hidden;
+    padding: 2rem 0;
+    margin-top: 2rem;
+    background-color: #eae0dd; 
+    transition: background-color 0.4s ease-out;
+}
+
+.tech-slideshow2-container:hover {
+    background-color: #f45b69;
+}
+
+.tech-slideshow3-container {
+    position: relative;
+    overflow-x: hidden;
+    padding: 2rem 0;
+    margin-top: 2rem;
+    background-color: #eae0dd;
+    transition: background-color 0.4s ease-out;
+}
+
+.tech-slideshow3-container:hover {
+    background-color: #59a5d8;
 }
