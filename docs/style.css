@@ -5,6 +5,9 @@ head {
     height: 200vh;
     
 }
+body {
+    background-color: #f5efed;
+}
 
 h1 {
     padding: 10em;
@@ -31,17 +34,12 @@ h1:hover {
 .visitekaartjes {
     color:#509170 ;
     font-weight: bold;
-}    
+   
+}
 
- 
-@media screen  (min-width: 320px;)
-    
-{}
-
-@media screen  (max-width: 1280px) 
-    
-{}
-
+div{
+    text-align: center;
+}
 
 body {
     margin-top: 0%;
@@ -52,13 +50,10 @@ body {
 
 }
 
-.visitekaartjes {
-    color:#509170 ;
-    font-weight: bold;
-}    
 
 p {
     text-align: center;
+    width: 30em;
 }
 
 
