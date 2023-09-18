@@ -56,21 +56,21 @@ p {
 
 @keyframes slideinleft {
     from {
-        transform: translateX(-1100px);
+        transform: translateX(-250px);
     }
 
     to {
-        transform: translateX(500px);
+        transform: translateX(1350px);
     }
 }
 
 @keyframes slideinleft2 {
     from {
-        transform: translateX(-2700px);
+        transform: translateX(-2250px);
     }
 
     to {
-        transform: translateX(-1100px);
+        transform: translateX(-650px);
     }
 }
 
@@ -100,14 +100,14 @@ p {
 
 .tech-slideshow {
     animation-name: slideinleft;
-    animation-duration: 20s;
+    animation-duration: 5s;
     animation-timing-function: linear;
     animation-delay: 0s;
     animation-iteration-count: infinite;
 }
 
 .tech-slideshow {
-    background-image: url(2slide.jpg);
+ 
     position: absolute;
 }
 
@@ -115,14 +115,14 @@ p {
 
 .techsliderfollow {
     animation-name: slideinleft2;
-    animation-duration: 20s;
+    animation-duration: 5s;
     animation-timing-function: linear;
     animation-delay: 0s;
     animation-iteration-count: infinite;
 }
 
 .techsliderfollow {
-    background-image: url(2slide.jpg);
+
     position: relative;
 }
 
@@ -137,7 +137,7 @@ p {
 }
 
 .tech-slideshow2 {
-    background-image: url(1slide.jpg);
+
     position: absolute;
 
 }
@@ -153,7 +153,7 @@ p {
 }
 
 .tech-sliderfollow1>div {
-    background-image: url(1slide.jpg);
+ 
     position: relative;
 }
 
@@ -169,8 +169,8 @@ p {
 
 
 .techslide3 {
-    background-image: url(3slide.png);
-    position: relative;
+
+    position: absolute;
 }
 
 /* followslider animation 3 */
@@ -184,8 +184,8 @@ p {
 }
 
 .techslidefollow3 {
-    background-image: url(3slide.png);
-    position: absolute;
+
+    position: relative;
 }
 
 /* header, paragraaf*/
@@ -237,3 +237,11 @@ p {
 .tech-slideshow3-container:hover {
     background-color: #59a5d8;
 }
+
+footer {
+    position: relative;
+    padding: 1.7em;
+    background-color: #0f0a0a;
+    color: #eae0dd;
+}
+
