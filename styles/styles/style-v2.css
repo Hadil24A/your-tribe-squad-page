@@ -56,21 +56,21 @@ p {
 
 @keyframes slideinleft {
     from {
-        transform: translateX(-250px);
+        transform: translateX(0px);
     }
 
     to {
-        transform: translateX(1350px);
+        transform: translateX(2010px);
     }
 }
 
 @keyframes slideinleft2 {
     from {
-        transform: translateX(-2250px);
+        transform: translateX(-2010px);
     }
 
     to {
-        transform: translateX(-650px);
+        transform: translateX(0px);
     }
 }
 
@@ -78,21 +78,21 @@ p {
 
 @keyframes slideinright {
     from {
-        transform: translateX(-1050px);
+        transform: translateX(-2010px);
     }
 
     to {
-        transform: translateX(-2650px);
+        transform: translateX(0px);
     }
 }
 
 @keyframes slideinright2 {
     from {
-        transform: translateX(550px);
+        transform: translateX(0px);
     }
 
     to {
-        transform: translateX(-1050px);
+        transform: translateX(-2010px);
     }
 }
 
@@ -100,14 +100,13 @@ p {
 
 .tech-slideshow {
     animation-name: slideinleft;
-    animation-duration: 5s;
+    animation-duration: 20s;
     animation-timing-function: linear;
     animation-delay: 0s;
     animation-iteration-count: infinite;
 }
 
 .tech-slideshow {
- 
     position: absolute;
 }
 
@@ -115,7 +114,7 @@ p {
 
 .techsliderfollow {
     animation-name: slideinleft2;
-    animation-duration: 5s;
+    animation-duration: 20s;
     animation-timing-function: linear;
     animation-delay: 0s;
     animation-iteration-count: infinite;
@@ -152,8 +151,7 @@ p {
     animation-iteration-count: infinite;
 }
 
-.tech-sliderfollow1>div {
- 
+.tech-sliderfollow1 {
     position: relative;
 }
 
