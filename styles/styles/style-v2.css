@@ -8,11 +8,15 @@ head {
     margin: 0%;
 }
 
+/* achtergrond */
+
 body {
     margin-top: 0%;
     background-color: #f5efed;
 
 }
+
+/* titel font en grootte*/
 
 h1 {
     position: relative;
@@ -27,6 +31,8 @@ h1 {
     transition: background-color 0.4s ease-out , color 0.4s ease-out;
 }
 
+/* hover over titel, kleur en achtergrond verandering */
+
 h1:hover {
     background-color: #f45b69;
     color: #f5efed;
@@ -39,12 +45,15 @@ h1:hover {
     width: 100%;
 }
 
+/* link naar visitekaartje, font */
+
 .visitekaartjes {
     color: #509170;
     font-weight: bold;
     padding-top: 1em;
 }
 
+/* paragraaf met namen */
 
 p {
     text-align: center;
