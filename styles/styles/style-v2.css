@@ -78,7 +78,7 @@ p {
 
 @keyframes slideinright {
     from {
-        transform: translateX(-2010px);
+        transform: translateX(2010px);
     }
 
     to {
@@ -95,6 +95,27 @@ p {
         transform: translateX(-2010px);
     }
 }
+
+@keyframes slideinleftbottom {
+    from {
+        transform: translateX(0px);
+    }
+
+    to {
+        transform: translateX(2374px);
+    }
+}
+
+@keyframes slideinleftbottom2 {
+    from {
+        transform: translateX(-2374px);
+    }
+
+    to {
+        transform: translateX(0px);
+    }
+}
+
 
 /* slider animation 1 */
 
@@ -158,8 +179,8 @@ p {
 /* slider animation 3 */
 
 .techslide3 {
-    animation-name: slideinleft;
-    animation-duration: 20s;
+    animation-name: slideinleftbottom;
+    animation-duration: 23.6s;
     animation-timing-function: linear;
     animation-delay: 0s;
     animation-iteration-count: infinite;
@@ -174,8 +195,8 @@ p {
 /* followslider animation 3 */
 
 .techslidefollow3 {
-    animation-name: slideinleft2;
-    animation-duration: 20s;
+    animation-name: slideinleftbottom2;
+    animation-duration: 23.6s;
     animation-timing-function: linear;
     animation-delay: 0s;
     animation-iteration-count: infinite;
