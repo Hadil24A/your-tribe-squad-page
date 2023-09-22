@@ -1,0 +1,37 @@
+
+
+/*
+    #slider{overflow: hidden;}
+    #slider figure {position:relative
+    width 100%
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+  #slider figure img {
+    float: left;
+    width: 75%;
+  }  
+  @keyframes slider 
+  {0%
+  {left: 0;}}
+  */
+
+
+
+  body {
+    display: flex;
+    background-color:rgb(225, 237, 242);
+  }
+
+
+ img {
+height: 80vh;
+width: 80vw;
+object-fit: contain;
+display: flex;
+align-items:end 
+
+}
+
+ 
